@@ -14,7 +14,7 @@ El juego se basa en tres estructuras principales que organizan la información:
 
 ---
 
-## 2. Inicialización del Mazo (Líneas 26-39)
+## 2. Inicialización del Mazo 
 
 La función `InitDeck` es la encargada de preparar el juego:
 - : Utiliza dos bucles anidados para crear una carta de cada valor (0-9) para cada uno de los cuatro colores.
@@ -22,7 +22,7 @@ La función `InitDeck` es la encargada de preparar el juego:
 
 ---
 
-## 3. Repartición de Cartas (Líneas 41-50)
+## 3. Repartición de Cartas 
 
 La función `DealCards`:
 - : Reparte 5 cartas a cada jugador llamando repetidamente a `DrawCard`.
@@ -45,7 +45,7 @@ La función `DrawCard` es crítica para el flujo continuo:
 
 ---
 
-## 6. Lógica de Jugada y Validación (Líneas 100-164)
+## 6. Lógica de Jugada y Validación 
 
 - **`IsValidMove` **: Compara la carta que el jugador quiere usar con la que está en la mesa. Es válida si coinciden en color **o** en valor.
 - **`PlayTurn`**: Es el corazón del juego:
@@ -56,7 +56,7 @@ La función `DrawCard` es crítica para el flujo continuo:
 
 ---
 
-## 7. Ejecución Principal (Líneas 170-193)
+## 7. Ejecución Principal 
 
 El `main`:
 - Inicializa la semilla aleatoria para que cada partida sea diferente .
