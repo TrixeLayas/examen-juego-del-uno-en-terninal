@@ -4,7 +4,7 @@ Este documento explica detalladamente la implementación del juego UNO contenida
 
 ---
 
-## 1. Estructuras de Datos (Líneas 9-24)
+## 1. Estructuras de Datos 
 
 El juego se basa en tres estructuras principales que organizan la información:
 
